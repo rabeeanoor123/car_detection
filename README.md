@@ -32,6 +32,6 @@ The script reads a video file using OpenCV and processes each frame to detect mo
 
 ## Feedback and Contributions
 
-Feel free to fork the repository, open issues, or submit pull requests. Any feedback is welcome!
+- Feel free to fork the repository, open issues, or submit pull requests. Any feedback is welcome!
 ---
 
