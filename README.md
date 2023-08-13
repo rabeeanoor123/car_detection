@@ -1,7 +1,6 @@
 
-# Motion Detection and Car Counting
-
-This code performs motion detection on a video of cars on a highway. It then counts the cars that pass a certain line on the frame.
+# Motion Detection of multiple vehicles
+This code performs motion detection on a video of cars on a highway. 
 
 ## Description
 
