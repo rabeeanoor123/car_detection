@@ -3,11 +3,9 @@
 
 This code performs motion detection on a video of cars on a highway. It then counts the cars that pass a certain line on the frame.
 
-![Motion Detection Preview](Output_video.mp4)
-
 ## Description
 
-Using OpenCV, the script reads a video file and processes each frame to detect moving cars. It then displays the original frame, the extracted foreground, and the frame with detected cars side by side.
+The script reads a video file using OpenCV and processes each frame to detect moving cars. It then displays the original frame, the extracted foreground, and the frame with detected cars side by side.
 
 ## Key Features
 
@@ -20,7 +18,7 @@ Using OpenCV, the script reads a video file and processes each frame to detect m
 
 - The code uses OpenCV's `BackgroundSubtractorMOG2` for background subtraction.
 - Contours are then found for the moving objects.
-- Bounding boxes are drawn around the contours that are large enough to be considered cars.
+- Bounding boxes are drawn around the large contours to be considered cars.
 - A line is drawn across the frame, and cars that pass this line are counted.
 - The output is a video that displays the original frame, the extracted foreground, and the frame with detected cars side by side.
 
